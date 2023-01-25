@@ -1,12 +1,16 @@
+import photo2 from "../assets/photo2.png";
+
 function Info() {
   return (
-    <div>
-      <img></img>
+    <div className="info-el">
+      <div className="photo-el"></div>
       <h1>Name Here</h1>
-      <p>Job title</p>
+      <p>Frontend Developer</p>
       <a href="#">Link here</a>
-      <button>Email</button>
-      <button>LinkedIn</button>
+      <div className="info-buttons">
+        <button className="info-buttons-email">Email</button>
+        <button className="info-buttons-linkd">LinkedIn</button>
+      </div>
     </div>
   );
 }
