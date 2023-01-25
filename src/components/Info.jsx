@@ -4,9 +4,9 @@ function Info() {
   return (
     <div className="info-el">
       <div className="photo-el"></div>
-      <h1>Name Here</h1>
+      <h1>SpaceMan Developer</h1>
       <p>Frontend Developer</p>
-      <a href="#">Link here</a>
+      <a href="#">Amazing.website</a>
       <div className="info-buttons">
         <button className="info-buttons-email">Email</button>
         <button className="info-buttons-linkd">LinkedIn</button>
